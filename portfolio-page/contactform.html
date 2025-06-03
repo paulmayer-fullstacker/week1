@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Paul Mayer Contct Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+  <body>
+    <h1>Contact Form</h1>
+
+    <form method="post" action='https://contact-form.some-server.org'>
+      <fieldset>
+        <legend>Please complete the required information:</legend>
+        <label for="name">Name: <input id="name" name="name" type="text" size="30" placeholder="Your Name" required /></label><br>
+        <br>
+        <label for="email">Email: <input id="email" name="email" type="email" size="30" placeholder="me@gmail.com" required /></label><br>
+        <br>
+        <label for="phone-number">Phone Number: <input type="tel" id="phone" name="phone" placeholder="01234567890"  size="22" required></label><br>
+      </fieldset>
+      <br>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+
+</html>
