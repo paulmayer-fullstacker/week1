@@ -1,4 +1,5 @@
 #Portfolio Page
+
 For year's I've been criticising developers for inadequate planning.
 Starting to code, before they have fully explored the user requirements.
 Well, now I'm guilty of the. I started coding on this exercise, before I'd finished reading the requirements.
