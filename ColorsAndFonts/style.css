@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #def0b0;
     margin: 20px;
     padding: 0;
 }
@@ -68,4 +68,28 @@ header p {
     background-color: lightgreen;
     font-family: 'Times New Roman', Times, serif
     /* Green */
+}
+
+.box-3 {
+    background-color: lightcoral;
+    font-family: 'Verdana', Times, serif
+    /* Light Coral */
+}
+
+.box-4 {
+    background-color:  lightgoldenrodyellow;
+    font-family: 'Courier New', Times, serif
+    /* Light Goldenrod Yellow */
+}
+
+.box-5 {
+    background-color:  lightsalmon;
+    font-family: 'Georgia', Times, serif
+    /* Light Salmonw */
+}
+
+.box-6 {
+    background-color:   lightpink;
+    font-family: 'Comic Sans MS', Times, serif
+    /* Light Pink */
 }
