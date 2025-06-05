@@ -5,6 +5,11 @@
     margin-bottom: 3px;
 }
 
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 fieldset {
     width: 40%;
     max-width: 50%;
@@ -81,13 +86,30 @@ fieldset {
     display: inline-block;
 }
 
-.split-div {
+.split-div-500-300 {
     display: grid;
   grid-template-columns: 500px 300px; /* Creates 3 equal columns */
+  background-color:honeydew ;
   gap: 10px;
 
 }
 
+.split-div-300-500 {
+    display: grid;
+  grid-template-columns: 400px 500px; /* Creates 3 equal columns */
+  background-color: ivory;
+  gap: 10px;
+
+}
+
+.div-padding-major {
+    padding: 50px 5px 0px 15px;
+}
+
 .padding-class {
     padding: 5px 25px;
+}
+
+footer {
+    font-size: 10px;
 }
