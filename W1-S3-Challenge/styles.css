@@ -5,6 +5,22 @@
     margin-bottom: 3px;
 }
 
+html {
+  scroll-padding-top: 150px; /* Adjust to match the header height */
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+   top: 0;
+  left: 0;
+}
+
+body {
+  padding-top: 110px; /* Adjust value based on header's height so header does not obscure content */
+}
+
 div {
     padding-top: 20px;
     padding-bottom: 20px;
