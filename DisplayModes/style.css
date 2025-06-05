@@ -18,14 +18,18 @@ footer {
 /* Issue: This text is currently hidden */
 .hidden-text {
     display: none;
-    /* Fix this */
+    /* Fix this. See HTML FOR FIX */
 }
 
-/* Items are currently stacked vertically */
+/* display block stacks vertically. display inline will place them on the same line */
+/* display block means it takes up the full width available and starts on a new line by default.
+So, the best way to fix the issue is to use display inline. */
 .item {
-    display: block;
-    /* Change this to allow them to be side by side */
+    /* display: block; */
+    display: inline;
     padding: 10px;
     background-color: lightgreen;
     margin: 5px;
 }
+
+
