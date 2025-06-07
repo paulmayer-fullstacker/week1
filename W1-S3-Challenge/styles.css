@@ -103,7 +103,7 @@ fieldset {
 }
 
 .split-div-500-300 {
-    display: grid;
+  display: grid;
   grid-template-columns: 500px 300px; /* Creates 3 equal columns */
   background-color:honeydew ;
   gap: 10px;

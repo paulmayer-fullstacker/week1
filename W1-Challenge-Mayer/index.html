@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Paul Mayer Bio Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Modes Exercise</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <body>
    <header id="header">
-   <div class="heading"><h1>Paul Mayer</h1></div>
+   <div class="heading ivory-item"><h1>Paul Mayer</h1></div>
 
    <nav class="navbar">
      <a class="active" href="#home">Home</a>
@@ -19,31 +21,16 @@
       
    </nav> 
    </header>
-   <!-- <div class="txt-img-container">
-      <div class="txt-container">
-          <h2>Biography</h2>
-         <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
+<main id="home">
+    <div><h2 id="biography">Biography</h2></div>
+    <section class="container">
+        <h3>About Me</h3>
+        <div class="container-item padding-bottom">
+             <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
            and operational success through the development and deployment of efficient, cost-effective cloud solutions.</p>
-      </div>
-      <div class="img-container">
-         <figure>
-             <img src="MayerPhoto.PNG" alt="A kindly old gentleman looks out from the picture." height="300" width="220">
-          <figcaption>The man himself</figcaption>
-         </figure>
-      </div>
-   </div> -->
-   
-      <div class="div-padding-major" id="home">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
-         <h2 id="biography" >Biography</h2>
-      </div>
-      <br/>
-      <div class="split-div-500-300">
-         <div class="padding-class" >
-         <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
-           and operational success through the development and deployment of efficient, cost-effective cloud solutions.</p><br/>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu nec turpis consectetur
              fringilla ac sagittis ipsum. Fusce consectetur congue ligula et lacinia. 
-             Pellentesque vel dui nec turpis molestie malesuada.</p><br/>
+             Pellentesque vel dui nec turpis molestie malesuada.</p>
          <p> Morbi ut ultricies quam. 
              Aenean rutrum facilisis tortor, nec tristique erat imperdiet a. Praesent non lorem tortor. 
              Integer aliquam, velit quis tristique pulvinar, nunc lacus congue ex, 
@@ -51,46 +38,50 @@
              dictum hendrerit dui. Proin pulvinar feugiat lorem a laoreet. Duis quis lacus dui. 
              Fusce vitae mi in arcu tincidunt malesuada. Vestibulum arcu massa, accumsan vehicula massa vitae, 
              feugiat malesuada metus. Curabitur ut tempus tellus. </p>
-            </div>
-            <div>
-           <figure class="padding-class">
+             
+        </div>
+        <div class="container-item">
+          <figure>
              <img src="MayerPhoto.PNG" alt="A kindly old gentleman looks out from the picture." height="300" width="220">
           <figcaption>The man himself</figcaption>
-         </figure> 
-         </div>        
-      </div>
+        </div>
+    </section>
 
-       <div class="div-padding-major">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
-         <h2 id="projects">Projects</h2>
-      </div>
-      <br/>
-      <div class="split-div-300-500">
-          <div>
-           <figure class="padding-class">
-             <img src="chimneyDemolition.jpg" alt="A kindly old gentleman looks out from the picture." height="250" width="350">
+
+    <div><h2 id="projects">Projects</h2></div>
+    <section class="container honeydew-item">
+        <h3>Project-1</h3>
+        <div class="container-item padding-bottom">
+             <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
+           and operational success through the development and deployment of efficient, cost-effective cloud solutions.</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu nec turpis consectetur
+             fringilla ac sagittis ipsum. Fusce consectetur congue ligula et lacinia. 
+             Pellentesque vel dui nec turpis molestie malesuada.</p>
+         <p> Morbi ut ultricies quam. 
+             Aenean rutrum facilisis tortor, nec tristique erat imperdiet a. Praesent non lorem tortor. 
+             Integer aliquam, velit quis tristique pulvinar, nunc lacus congue ex, 
+             nec convallis lectus justo non odio. Proin enim tellus, dapibus et eros vel, 
+             dictum hendrerit dui. Proin pulvinar feugiat lorem a laoreet. Duis quis lacus dui. 
+             Fusce vitae mi in arcu tincidunt malesuada. Vestibulum arcu massa, accumsan vehicula massa vitae, 
+             feugiat malesuada metus. Curabitur ut tempus tellus. </p>
+             
+        </div>
+        <div class="container-item">
+          <figure>
+             <img src="chimneyDemolition.jpg" alt="A tall industrial chimney falling down: demolished." 
+             height="300" width="400">
           <figcaption>Project-1 graphic</figcaption>
-         </figure> 
-         </div> 
-         <div class="padding-class">
-            <h3>Project-1</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit, elit ac iaculis suscipit, tortor massa blandit elit, id sodales ipsum lacus quis diam. </p><br/>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu nec turpis consectetur
-             fringilla ac sagittis ipsum. Fusce consectetur congue ligula et lacinia. 
-             Pellentesque vel dui nec turpis molestie malesuada.</p><br/>
-         <p> Morbi ut ultricies quam. 
-             Aenean rutrum facilisis tortor, nec tristique erat imperdiet a. Praesent non lorem tortor. 
-             Integer aliquam, velit quis tristique pulvinar, nunc lacus congue ex, 
-             nec convallis lectus justo non odio.  </p>
-            </div>       
-      </div>
+        </div>
+    </section>
 
-      <div class="split-div-500-300">
-         <div class="padding-class">
-            <h3>Project-2</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit, elit ac iaculis suscipit, tortor massa blandit elit, id sodales ipsum lacus quis diam. </p><br/>
+    <section class="container ivory-item">
+        <h3>Project-2</h3>
+        <div class="container-item padding-bottom">
+              <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
+           and operational success through the development and deployment of efficient, cost-effective cloud solutions.</p>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu nec turpis consectetur
              fringilla ac sagittis ipsum. Fusce consectetur congue ligula et lacinia. 
-             Pellentesque vel dui nec turpis molestie malesuada.</p><br/>
+             Pellentesque vel dui nec turpis molestie malesuada.</p>
          <p> Morbi ut ultricies quam. 
              Aenean rutrum facilisis tortor, nec tristique erat imperdiet a. Praesent non lorem tortor. 
              Integer aliquam, velit quis tristique pulvinar, nunc lacus congue ex, 
@@ -98,44 +89,49 @@
              dictum hendrerit dui. Proin pulvinar feugiat lorem a laoreet. Duis quis lacus dui. 
              Fusce vitae mi in arcu tincidunt malesuada. Vestibulum arcu massa, accumsan vehicula massa vitae, 
              feugiat malesuada metus. Curabitur ut tempus tellus. </p>
-            </div>
-            <div>
-           <figure class="padding-class">
-             <img src="deralict1.jpg" alt="A kindly old gentleman looks out from the picture." height="300" width="400">
+             
+        </div>
+        <div class="container-item">
+          <figure>
+             <img src="deralict1.jpg" alt="View of a room in a grand house: ruined. 
+             The ceiling and the floor have fallen through" height="300" width="400">
           <figcaption>Project-2 graphic</figcaption>
-         </figure> 
-         </div>        
-      </div>
-          
-      <div class="split-div-300-500">
-          <div>
-           <figure class="padding-class">
-             <img src="burningRuin.jpg" alt="A kindly old gentleman looks out from the picture." height="275" width="375">
-          <figcaption>Project-3 graphic</figcaption>
-         </figure> 
-         </div>   
-         <div class="padding-class">
-            <h3>Project-3</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit, elit ac iaculis suscipit, tortor massa blandit elit, id sodales ipsum lacus quis diam. </p><br/>
+        </div>
+    </section>
+
+    <section class="container honeydew-item">
+        <h3>Project-3</h3>
+        <div class="container-item padding-bottom">
+             <p>An experienced Infrastructure and DevOps Engineer who has influenced business efficiency 
+           and operational success through the development and deployment of efficient, cost-effective cloud solutions.</p>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non arcu nec turpis consectetur
              fringilla ac sagittis ipsum. Fusce consectetur congue ligula et lacinia. 
-             Pellentesque vel dui nec turpis molestie malesuada.</p><br/>
+             Pellentesque vel dui nec turpis molestie malesuada.</p>
          <p> Morbi ut ultricies quam. 
              Aenean rutrum facilisis tortor, nec tristique erat imperdiet a. Praesent non lorem tortor. 
              Integer aliquam, velit quis tristique pulvinar, nunc lacus congue ex, 
              nec convallis lectus justo non odio. Proin enim tellus, dapibus et eros vel, 
              dictum hendrerit dui. Proin pulvinar feugiat lorem a laoreet. Duis quis lacus dui. 
- </p>
-            </div>     
-      </div>
-          
-      <div class="div-padding-major">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
-         <H2 id="contact">Contact</H2>
+             Fusce vitae mi in arcu tincidunt malesuada. Vestibulum arcu massa, accumsan vehicula massa vitae, 
+             feugiat malesuada metus. Curabitur ut tempus tellus. </p>
+            
+        </div>
+        <div class="container-item">
+          <figure>
+             <img src="burningRuin.jpg" alt="A tall industrial chimney falling down: demolished." 
+             height="300" width="400">
+          <figcaption>Project-3 graphic</figcaption>
+        </div>
+    </section>
+
+    <section class="container">
+      <H2 id="contact">Contact</H2>
+      <div class="container-item shallow-item">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
          <p>If you'd like to get in touch, you can call, e-mail, or submit a contact form.</p>
          <p>In all cases, your information will be held in confidence and won't be shared with third parties</p>
       </div>
-      <div class="div-padding-major">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
-         <h3>Contact me:</h3>
+      <div class="container-item shallow-item">    <!-- <div style="padding: 50px 5px 0px 15px;"> -->
+         <h3 id="contact-me">Contact me:</h3>
          <p>Call: 01234 567 890</p>
          <p>Mail: <a href="mailto:pmayer.devopseng@gmail.com"> PMayer.DevOpsEng@gmail.com </a></p>
          <p>Submit a Contact <a href="contactform.html" target="_blank">Form</a></p>
@@ -143,19 +139,23 @@
       <div>
       <br/>
      <hr class="bottom-line">
-      <footer class="split-div-500-300 padding-class">
-        <div>
+      <footer class="container footer ivory-item">
+        <div class="container-item shallow-item">
           <p>This website is a work of fiction.</p>
           <p>Reference to actual persons, living or dead, or actual events, is purely coincidental.</p>
           <p>No infrastructure of buildings were damaged during the creation of this website</p>
          </div>
-         <div>
+         <div class="container-item shallow-item">
             <p>The content of this website is freely available for use, 
             <br/>  modification, and distribution by anyone.</p>
             <p>No license restrictions apply.</p>
          </div>
       </footer>
-
+    </div>
+<br/>
+</main>
+<footer>
+    
+</footer>
 </body>
-
 </html>
