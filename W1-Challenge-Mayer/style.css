@@ -135,3 +135,17 @@ padding: 20px;
 legend {
   font-size: 20px;
 }
+
+/* Comments */
+
+/* Effective commenting is an important feature of good coding.
+   Commenting can enhance the following aspects of the SDLC:
+    * Collaboration.
+    * Clarity of purpose of code.
+    * Debugging and troubleshooting.
+    * Maintenance and evolution.
+    * Self-documentation. */
+  
+/*  As a longtime advocate of thorough documentation (inc. commenting),
+    I'm ashamed to present code that is inadequately commented. 
+    I'll do better next time*/
