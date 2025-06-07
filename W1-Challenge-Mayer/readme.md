@@ -14,11 +14,11 @@ The solution has been pushed to my GitHub repository and published to GitHub Pag
 
 ## The Solution:
 
-### 1. The Portfolio Page:
+### The Portfolio Page:
 
 The Portfolio is the main page (index.html). This page fulfills the majority of challenge requirements. As the landing page, it is designed to be most atractive and engaging. It comprises a header and navigation bar (fixed), a Biography section, a Projects section, and a Contact section. The page terminates with a footer. Within the Contact section, there is a lin to a separate contact form.
 
-### 2. The Contact Form:
+### The Contact Form:
 
 The Contact Form was created as a separate page. In contrast to the decorative Portfolio page, this is intended to be more functional and practical. Differentiation of the two plages offers a number of advantages, for this solution:  
 
@@ -27,7 +27,7 @@ The Contact Form was created as a separate page. In contrast to the decorative P
 - The Contact Form could be completely free standing, with its own stylesheet.
 - An opportunity to showcase more styling strategies. 
 
-### 3. Commenting:
+### Commenting:
 
 I appreciate that the HTML and CSS files are not adequately commented. I hope that this can be overlooked. I understand that good commenting can enhance:
 
@@ -50,9 +50,20 @@ A number of the stretch goal were achieve on the first iteration of coding. For 
 
 These simply seemed the right way to go, from the get-go.
 
+---
+
+## GitHub
+
 ### GitHub repository:
 
+My solution is contained within a project called: W1-Challenge-Mayer.  
+The project has now been pushed my GitHub repository: https://github.com/paulmayer-fullstacker/week1/
+
+
 ### GitHub Pages:
+
+The solution has been published to GitHub Pages, and can be found at this URL:  
+https://paulmayer-fullstacker.github.io/week1/W1-Challenge-Mayer/
 
 ---
 
